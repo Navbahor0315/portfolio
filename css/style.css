@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.button button {
+    border: none;
+    padding: 10px 15px ;
+    color: blue;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: white;
+}
+.button button span {
+    margin-left: 10px;
+}
+.menu1 .nav-item a{
+color: white !important;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 600;
+margin-right: 15px;
+}
+.banner {
+    height: 800px;
+}
+.banner img {
+    width: 400px;
+}
+
+header {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+}
+
+.mask {
+    background-color: rgba(0, 128, 255, 0.499);
+}
+.forma h1 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.forma {
+ 
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+ 
+}
+.forma input {
+    display: block;
+    width: 100%;
+   padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid rgb(231, 225, 225);
+   
+    margin-bottom: 15px;
+}
+
+.forma input:focus {
+    outline: none;
+}
+
+.forma input:last-child {
+    background-color: rgb(0, 179, 255);
+    color: white;
+    font-size: 20px;
+}
+
+.menu-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 128, 255, 0.499);
+}
+
+
+#first {
+    padding: 50px;
+}
+
+.first_imgBox {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.icon i {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+padding: 10px;
+border-radius: 50%;
+font-size: 24px;
+border-color: white;
+}
+
+#second {
+    padding: 50px 0;
+    border-color: #FAFAFA;
+}
+
+#three {
+    background-image: url(../img/video-bg.jpg);
+    background-size: cover;
+}
+#three h1  {
+    color: white; 
+   
+}
+#three p {
+    color: white;
+}
+#three .icon i {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    border: 1px solid blue;
+    background-color: white;
+    
+}
+.box-8 {
+    transition: .5s;
+}
+
+#eight button{
+    transition: .5s;
+}
+#eight button:hover {
+    background-color: rgb(234, 13, 57);
+}
+.box-8:hover {
+    
+        box-shadow: rgb(10, 85, 189) 0px 3px 8px ,
+                    rgba(6, 64, 238, 0.856) 0px 3px 18px,
+                    rgba(8, 92, 228, 0.836) 0px 3px 28px,
+                    rgba(0, 63, 238, 0.801) 0px 3px 38px,
+                    rgb(8, 72, 182) 0px 3px 48px,
+                    rgb(15, 115, 196) 0px 3px 58px,
+                    rgba(6, 95, 238, 0.808) 0px 3px 68px,
+                    rgba(5, 102, 248, 0.637) 0px 3px 78px;
+                    border-radius:8px ;
+  
+}
+.box1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px 5px;
+  padding: 10px;
+}
+
+#five {
+    background-color: rgb(252, 246, 246);
+}
+.five2{
+    display: flex;
+}
+.fiveicon {
+    background-color: blue;
+    font-size: 30px;
+}
+
+#seven {
+    background-image: url(../img/newsletter-bg.jpg);
+    background-size: cover;
+   
+}
+.box-2 {
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+#seven input {
+    margin: 10px 0;
+    width: 60%;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgb(190, 184, 184);
+}
+
+.maska {
+    background-color: rgba(0, 136, 255, 0.612);
+}
+#seven button {
+    margin: 10px 0;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: rgb(0, 187, 255);
+  color: white;
+  
+} 
+
+.color {
+    color: blue;
+    font-size: 20px;
+}
+#eight button {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+   
+}
+.box2 {
+    width: 280px;
+    background-color: rgb(236, 231, 231);
+    margin: 10px 5px;
+    padding: 10px;
+    transition: .5s;
+    
+}
+.box2:hover{
+    filter: blur(0);
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#nine {
+ background-image: url(../img/banner-1.jpg);
+ background-size: cover;
+    color: white;
+}
+
+#nine img {
+border-radius: 100px;
+}
+ .box_1 {
+     background-color: rgb(0, 162, 255);
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     padding: 5px;
+     margin: 10px;
+     color: white;
+ }
+ .fontp {
+     font-size: 20px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 10px;
+     margin: 0px;
+     padding: 10px;
+ }
+ .fontp2 {
+     padding: 5px;
+ }
+ .box_2 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin: 10px;
+ }
+ .box_3 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+ }
+ .box_4 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+ }
+.box_5 {
+    height: 450px;
+    margin: 10px;
+}
+ .box-4 {
+  display: flex;
+  margin: 10px;
+ }
+ #elevin {
+     background-image:url(../img/map.png) ;
+     background-color: rgba(214, 208, 208, 0.249);
+ }
+ .iconphone {
+     font-size: 40px;
+     border: 1px solid blue;
+     margin: 5px;
+     padding: 5px 10px;
+     color: blue;
+     border-radius: 5px;
+ }
+ .boxName {
+     width: 40%;
+   margin: 10px;
+     padding: 10px 20px;
+     border: none;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ #email {
+    width: 40%;
+     padding:10px 20px;
+     margin: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border: none;
+ }
+ .box-6 {
+     width: 83%;
+    padding:10px 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+ }
+ .box-7 {
+    width: 83%;
+    padding:10px 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none; 
+    height: 200px;
+    
+ }
+ .box-8 {
+     margin: 20px;
+     padding: 7px 30px;
+     border: none;
+     color: white;
+     background-color: blue;
+     border-radius: 3px;
+ }
+ #end {
+     background-color: black;
+ }
+ .iconsend i {
+     font-size: 30px;
+     margin: 5px;
+     background-color: blue;
+   color: white;
+     border: 1px solid blue;
+     border-radius: 50%;
+     padding: 10px;
+ }
+ #end span {
+     color: blue;
+ }
+ #end p {
+     margin: 10px;
+     color: white;
+ }
+ #end h3 {
+     color: white;
+     margin: 10px;
+ }
+@media (max-width:992px){
+    .banner {
+        height: auto;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    .box-2 {
+        display: block;
+    }
+}
